@@ -1,10 +1,22 @@
 <template>
     <div id="home">
-        this is home page
+
+        <Header></Header>
+
     </div>
 </template>
+
 <script>
+import Header from '../../views/home/components/header/Header'
 export default {
-    
+    components: {
+        Header
+    }
 }
 </script>
+
+<style lang="less" scoped>
+#home{
+    
+}
+</style>
