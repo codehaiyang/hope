@@ -15,3 +15,7 @@ Vue.use(Cell).use(CellGroup)
 // 4.宫格
 import { Grid, GridItem } from 'vant'
 Vue.use(Grid).use(GridItem)
+
+// 5.Icon
+import { Icon } from 'vant'
+Vue.use(Icon)
