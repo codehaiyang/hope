@@ -19,3 +19,11 @@ Vue.use(Grid).use(GridItem)
 // 5.Icon
 import { Icon } from 'vant'
 Vue.use(Icon)
+
+// 6.CountDown
+import { CountDown } from 'vant'
+Vue.use(CountDown)
+
+// 7.tab,babs
+import { Tab, Tabs } from 'vant'
+Vue.use(Tab).use(Tabs)

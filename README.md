@@ -29,17 +29,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 希望工程   !vue全家桶实战学习
 
 ## 技术栈
+```
 vue
-```
 vuex
-
-```
 vue-router
-
-```
 vant-ui
-
-```
 vue-cli
 
 ## Day01
@@ -59,3 +53,7 @@ vue-cli
 1.完成首页头部组件
 2.完成轮播图组件使用swiper
 3.完成axios请求框架 发送数据请求
+
+## Day4
+1.完成首页显示抢购模块
+2.完成特色专区模块
