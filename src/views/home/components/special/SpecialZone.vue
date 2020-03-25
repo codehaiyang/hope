@@ -15,7 +15,7 @@
                 </div>
                 <div class="item hot">
                     <span>十二月爆款</span>
-                    <p>世界之大，不过一盘番茄炒鸡蛋</p>
+                    <p>世界之大不过一盘番茄炒鸡蛋</p>
                     <img src="" alt="">
                     <img src="" alt="">
                 </div>
@@ -27,19 +27,19 @@
                     <img src="" alt="">
                     <img src="" alt="">
                 </div>
-                <div class="box-other">
-                    <div class="item">
-                        <span>VIP 专享</span>
-                        <p>阳光玫瑰 VIP只要12.9</p>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </div>
-                    <div class="item">
-                        <span>VIP 专享</span>
-                        <p>阳光玫瑰 VIP只要12.9</p>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </div>
+                <div class="item other">
+                        <div class="item def">
+                            <span>吃什么</span>
+                            <p>童年落花生</p>
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </div>
+                        <div class="item def">
+                            <span>平价菜场</span>
+                            <p>豆芽0.99</p>
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </div>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ export default {
     display: flex;
 }
 .item {
-    width: 50%;
+    flex: 1;
     padding: 0.5rem;
 }
 .item span {
@@ -89,7 +89,11 @@ export default {
 .hot {
     border-bottom: 0.01rem solid #dddbc0;
 }
-.box-other {
+.other {
+    border-left: 0.01rem solid #dddbc0;
     display: flex;
+}
+.def {
+    padding: 0rem;
 }
 </style>

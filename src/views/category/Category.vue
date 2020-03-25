@@ -1,10 +1,13 @@
 <template>
     <div id="category">
-        this is category page
+        <Seach></Seach>
     </div>
 </template>
 <script>
+import Seach from './components/seach/Seach'
 export default {
-    
+    components: {
+        Seach
+    }
 }
 </script>
