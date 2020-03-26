@@ -31,7 +31,6 @@ export default {
 <style lang="less" scoped>
 .wrapper {
     width: 100%;
-    padding: 0.1rem;
     display: flex;
 }
 .location-wrap {

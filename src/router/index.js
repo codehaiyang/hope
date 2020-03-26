@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 // 一级组件
 import Dashborad from '../views/dashboard/Dashborad.vue'
+const Login = () => import('../views/login/Login.vue')
 
 // 二级组件
 const Home = () => import('../views/home/Home.vue')
@@ -61,7 +62,12 @@ const routes = [
         component: Mine
       }
     ]
-  }
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
 ]
 
 const router = new VueRouter({

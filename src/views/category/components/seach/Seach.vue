@@ -10,6 +10,7 @@
 <style scoped>
 .wrapper {
     padding: 0.5rem;
+    border-bottom: 1px solid #e6e6e6;
 }
 .seach-box {
     padding: 0.4rem;

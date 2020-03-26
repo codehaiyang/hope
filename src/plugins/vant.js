@@ -27,3 +27,15 @@ Vue.use(CountDown)
 // 7.tab,babs
 import { Tab, Tabs } from 'vant'
 Vue.use(Tab).use(Tabs)
+
+// 8.输入框
+import { Field } from 'vant'
+Vue.use(Field)
+
+// 9.按钮
+import { Button } from 'vant';
+Vue.use(Button)
+
+// 10.分割线
+import { Divider } from 'vant';
+Vue.use(Divider)

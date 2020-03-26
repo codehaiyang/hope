@@ -12,7 +12,7 @@
                 <template>
                     <div class="top-header">
                         <img :src="user_image.noLogin_icon" alt="">
-                        <div class="header-login">
+                        <div class="header-login" @click="goPage('login')">
                             立即登录
                         </div>
                     </div>
@@ -31,7 +31,7 @@
         <!-- 订单状态导航 -->
         <van-grid>
             <van-grid-item 
-                v-for="(order,index) in orderData" 
+                v-for="(order,index) in orderData"
                 :key="index" 
                 :icon="order.icon"
                 :text="order.title">
@@ -53,7 +53,6 @@
             <van-cell title="意见反馈" icon="comment-circle" is-link></van-cell>
             <van-cell title="语言" icon="clock" is-link></van-cell>
         </van-cell-group>
-
     </div>
 
 </template>
@@ -76,6 +75,11 @@ export default {
                 {icon: 'smile-comment-o', title: '待评价'},
                 {icon: 'cash-back-record', title: '售后/退款'}
             ]
+        }
+    },
+    methods: {
+        goPage(name) {
+            this.$router.push({name})
         }
     }
 }

@@ -23,6 +23,7 @@
 </template>
 
 <script>
+
 import { getHomeData } from '../../serve/api/index'
 
 import Header from './components/header/Header'
@@ -39,7 +40,7 @@ export default {
         Header,
         Banner,
         Tip,
-        Nav,
+        Nav,    
         VipTip,
         FlashBuy,
         SpecialZone,
